@@ -1,0 +1,39 @@
+body{
+	background: #e8e8e8;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.todo{
+	width: 400px;
+	margin: 70px auto;
+	font-size: 15px;
+	line-height: 1.2;
+	input{
+		padding: 10px 15px;
+		width: 400px;
+		margin: auto;
+		font-size: 18px;
+		font-weight: 500;
+		border: 1px solid #ccc;
+	}
+	ul{
+		margin: 20px 0 0;
+		width: 100%;
+		li{
+			font-size: 18px;
+			margin-bottom: 15px;
+			position: relative;
+			&.done{
+				color: #999;
+				text-decoration: line-through;
+			}
+		}
+	}
+	button{
+		float: right;
+		border-width: 0;
+		color: #005091;
+		background: transparent;
+		font-size: 13px;
+		cursor: pointer;
+	}
+}

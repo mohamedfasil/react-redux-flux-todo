@@ -47,4 +47,6 @@ const todos = (state = [], action) => {
 	}
 };
 
+// redux devtools should be removed in prod, keeping it here for easy visiblity :)
+
 export default createStore(combineReducers({ todos}), window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
